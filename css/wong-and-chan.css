@@ -215,6 +215,10 @@ blockquote {
   margin-top: 20px;
 }
 
+.button.hide {
+  display: none;
+}
+
 .section {
   position: relative;
   padding: 120px 20px;
@@ -1182,9 +1186,6 @@ blockquote {
   margin-left: auto;
   border-radius: 0px;
   background-color: transparent;
-  background-image: url('../images/WhatsApp-Image-2023-03-14-at-3.04.28-PM-1.jpeg');
-  background-position: 100% 50%;
-  background-size: cover;
 }
 
 .hero-big-image-wrapper {
@@ -1869,6 +1870,10 @@ blockquote {
   font-size: 14px;
 }
 
+.hero-image {
+  width: 100%;
+}
+
 @media screen and (max-width: 991px) {
   .nav-button-wrapper {
     margin-right: 0px;
@@ -2071,7 +2076,7 @@ blockquote {
   }
 
   .home-section.hero.big-hero {
-    height: 1200px;
+    height: auto;
     padding-top: 0px;
     padding-bottom: 0px;
     -webkit-box-pack: start;
@@ -2090,7 +2095,7 @@ blockquote {
   }
 
   .hero-big-image.green {
-    height: 600px;
+    height: auto;
   }
 
   .hero-big-image-wrapper {
@@ -2277,12 +2282,7 @@ blockquote {
   }
 
   .home-section.hero.big-hero {
-    height: 1100px;
     padding-bottom: 0px;
-  }
-
-  .hero-big-image.green {
-    height: 400px;
   }
 
   .left-hero-content.left {
@@ -2493,7 +2493,6 @@ blockquote {
   }
 
   .home-section.hero.big-hero {
-    height: 900px;
     padding-bottom: 100px;
   }
 
@@ -2513,10 +2512,6 @@ blockquote {
     height: 600px;
     background-position: 50% 100%;
     background-size: contain;
-  }
-
-  .hero-big-image.green {
-    height: 300px;
   }
 
   .left-hero-content {
